@@ -11,6 +11,7 @@ public class CoffeeShop {
         coffee = new MilkDecorator(coffee);
         coffee = new SugarDecorator(coffee);
         coffee = new CreamDecorator(coffee);
+        coffee = new SugarDecorator(coffee);
 
         System.out.println(coffee.getDescription());
         System.out.println(coffee.getCost());
